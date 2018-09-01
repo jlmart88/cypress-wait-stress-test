@@ -1,0 +1,19 @@
+{
+  "name": "cypress-stress-test",
+  "version": "1.0.0",
+  "description": "Try to break cy.wait",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "start": "webpack-dev-server --mode development"
+  },
+  "author": "Justin Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cypress": "^3.1.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
+  }
+}
